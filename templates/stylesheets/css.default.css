@@ -1,0 +1,106 @@
+/*
+
+Default Table Theme
+
+*/
+
+table.wp_compare_tables {
+	
+	background: transparent !important;
+	border: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	vertical-align: middle !important;
+	
+	border-collapse: collapse !important;
+	border-spacing: 0 !important;
+	text-align: center !important;
+	
+}
+
+table.wp_compare_tables tr th,
+table.wp_compare_tables thead th {
+	color: white !important;
+	font-size: 14px !important;
+	font-weight: normal !important;
+	line-height: 18px !important;
+	padding: 0 !important;
+	background-color: #0099cd !important;;
+	height: 30px;
+	vertical-align: middle !important;
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.25, rgb(0,133,177)),
+	    color-stop(0.82, rgb(0,159,212))
+	) !important;
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(0,133,177) 25%,
+	    rgb(0,159,212) 82%
+	) !important;
+	
+}
+table.wp_compare_tables thead th.wp_compare_tables-thead-first-th {
+   border-top-left-radius: 5px !important;
+  -moz-border-top-left-radius: 5px !important;
+}
+table.wp_compare_tables thead th.wp_compare_tables-thead-last-th {
+   border-top-right-radius: 5px !important;
+  -moz-border-top-right-radius: 5px !important;
+}
+table.wp_compare_tables tr td {
+	border-top: 0 !important;
+	padding: 0 !important;
+	
+	height: 80px !important;
+	font-size: 16px;
+	vertical-align: middle !important;
+}
+table.wp_compare_tables tbody td.wp_compare_tables-tbody-first-td {
+	border-left: 1px solid #dddddd !important;
+}
+table.wp_compare_tables tbody td.wp_compare_tables-tbody-last-td {
+	border-right: 1px solid #dddddd !important;
+}
+table.wp_compare_tables tbody td {
+	border-bottom: 1px solid #dddddd !important;
+}
+table.wp_compare_tables tr.odd td {
+	background: none !important;
+}
+
+table.wp_compare_tables tr.wp_compare_tables-tbody-tr-odd td {
+	background: #ffffff;
+}
+table.wp_compare_tables tr.wp_compare_tables-tbody-tr-even td {
+	background: #f0f0f0;
+}
+table.wp_compare_tables tr td a.wp_compare_tables_table-button {
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 0 auto;
+	background-color: #a8e48b;
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.25, rgb(40,150,0)),
+	    color-stop(0.82, rgb(95,200,47))
+	) !important;
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(40,150,0) 25%,
+	    rgb(95,200,47) 82%
+	) !important;
+	border: 1px solid #a8e48b;
+   border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+}
